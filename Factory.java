@@ -3,7 +3,6 @@ interface Sim{
 	public void calling();
 }
 class Airtel implements Sim{
-
 	@Override
 	public void data() {
 		System.out.println("airtel data u r using");
@@ -24,7 +23,6 @@ class Vodafone implements Sim{
 	}	
 }
 class Jio implements Sim{
-
 	@Override
 	public void data() {
 		System.out.println("jio data u r using");
